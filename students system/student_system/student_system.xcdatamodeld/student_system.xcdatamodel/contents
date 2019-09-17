@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Course" representedClassName="Course" syncable="YES">
+        <attribute name="ccredit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cnum" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Grade" representedClassName="Grade" syncable="YES">
+        <attribute name="cname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="sage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="snum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ssex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Course" positionX="-45" positionY="36" width="128" height="90"/>
+        <element name="Student" positionX="-45" positionY="0" width="128" height="120"/>
+        <element name="Grade" positionX="-45" positionY="45" width="128" height="90"/>
+    </elements>
+</model>
